@@ -6,11 +6,9 @@
 #include <math.h>
 
 HANDLE *serial;
-unsigned char TxDBuffer[10];
-unsigned char RxDBuffer[10];
+
 int aux;
 int acum=0;
-
 DCB config;
 COMMTIMEOUTS touts;
 
